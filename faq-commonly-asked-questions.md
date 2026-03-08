@@ -13,8 +13,8 @@ If you do not see this or cannot map your binding to `Insert`, you will need to 
 ***
 ## Q: How can I toggle a photo mode?  Can I remove the item names or remove my HUD entirely?
 
-## A: Pressing `~` on your keyboard to bring up `developer mode`
+## A: Pressing `~` on your keyboard and using the `ShowHUD` command.
 
-Once you see the console, use the following command to remove all items on your HUD: `ShowHUD` which is a toggle for on/off
+Once you see the console, typing `ShowHUD` will toggle the feature on or off.
 
 ***
