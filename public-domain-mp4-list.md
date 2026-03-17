@@ -3,7 +3,7 @@
 - [House on Haunted Hill (1959)](https://ia601306.us.archive.org/19/items/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4)
 - [Lost World (1925)](https://ia800208.us.archive.org/15/items/lost_world/lost_world_512kb.mp4)
 - [Last Woman on Earth (1960)](https://publicdomainmovie.net/movie.php?id=last_woman_on_earth1960&type=.mp4)
-- [Night of the Living Dead (1968)](https://ia801409.us.archive.org/29/items/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPod_512kb.mp4) (of course)
+- [Night of the Living Dead (1968)](https://ia801409.us.archive.org/29/items/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead_iPod_512kb.mp4)
 - [Killers from Space (1954)](https://ia600704.us.archive.org/2/items/Killers_from_space/Killers_from_space_512kb.mp4)
 - [White Zombie (1932)](https://ia803406.us.archive.org/11/items/white_zombie/white_zombie_512kb.mp4)
 - [Little Shop of Horrors (1960)](https://ia800102.us.archive.org/9/items/Little_ShopOf_Horrors.avi/The_Little_Shop_of_Horrors_512kb.mp4)
