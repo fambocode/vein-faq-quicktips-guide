@@ -98,7 +98,27 @@ VEIN does not currently support RCON.
 
 This can also be adjusted manually by accessing the `Engine.ini` file within your server's file configuration location.
 
+### **Q:** How do I use the television or projector?  How does the `URL` or `File` sources to work?
+
+* Select the television/projector, then `Examine Connections` and add electricity from any electricity source such as a panel on the wall, a generator.
+* **For URL:**
+  * Select your source by changing it to `URL`, then click on `Select URL or file` and either type in your URL into the entry prompt, or you can copy and paste the link from a known URL with an existing `.mp4` extension.
+  * Turn the television from the Off to the On position
+  * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `URL`
+* **For File:**
+  *   * Select your source by changing it to `File`, then click on `Select URL or file`.  You will see a list of any file ending with an `.mp4` extension from the path your movie files are located in.  
+  * Turn the television from the Off to the On position
+  * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `File`
+
+### **Q:** Where are my local movie files located, so that I can play them in the television/projector?
+* Your game installation path on both the Windows or Linux client, will contain the location for the game's movie selection.
+  * **Linux:** `../steamapps/common/Vein/Vein/Content/Movies/`
+  * **Windows:** `..\steamapps\common\Vein\Vein\Content\Movies\`
+* All files must end in either `.mp4`, `.webm`, `.mp3`
+* Other formats may work such as `.mkv` and `.avi` but are currently unsupported/tested.
+
 ---
+
 <a name="commonabbreviations"></a>
 ## ⚠️ Common Abbreviations and Terms
 
