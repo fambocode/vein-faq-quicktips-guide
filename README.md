@@ -1,7 +1,7 @@
 ***
 # VEIN: Frequently Asked Questions & Server Guide (Unofficial)
 ![Vein, the game](assets/header.jpg)
-  
+ 
 ### Quick Navigation
 * [Server/Client Configurations](#configurations)
 * [File Locations](#locations)
@@ -107,10 +107,10 @@ VEIN does not currently support RCON.
 
 <a name="multiplayercommands"></a>
 ### **Q:** How do I run a console command on my multiplayer server?
-* **Admin privledges:** You can access your multiplayer server's admin and console menu by first adding the `steam64id` of the player to the `Game.ini` file, into either the `AdminSteamIDs` or `SuperAdmin` values
-* **Admin Menu vs Console:** You can access the console using the `~` developer options, but most commands will not work without first appending the `ServerExec` prefix to the command.  It is recommended that you use the game's `Admin Menu`, which can typically be accessed using the `\` or `Insert` keys.
+* **Admin privileges:** You can access your multiplayer server's admin and console menu by first adding the `steam64id` of the player to the `Game.ini` file, into either the `AdminSteamIDs` or `SuperAdmin` values.
+* **Admin Menu vs Console:** You can access the console using the `~` developer options, but most commands will not work without first appending the `ServerExec` prefix to the command. It is recommended that you use the game's `Admin Menu`, which can typically be accessed using the `\` or `Insert` keys.
 
-`vein.AISpawner.SpawnCapMultiplierZombie=5` - as an example this would set your AI's zombie multiplier slider to 5x
+`vein.AISpawner.SpawnCapMultiplierZombie=5` - as an example this would set your AI's zombie multiplier slider to 5x.
 This can also be adjusted manually by accessing the `Engine.ini` file within your server's file configuration location.
 
 <a name="televisionprojectormp4"></a>
@@ -118,42 +118,42 @@ This can also be adjusted manually by accessing the `Engine.ini` file within you
 * Select the television/projector, then `Examine Connections` and add electricity from any electricity source such as a panel on the wall, a generator.
 * **For URL:**
   * Select your source by changing it to `URL`, then click on `Select URL or file` and either type in your URL into the entry prompt, or you can copy and paste the link from a known URL with an existing `.mp4` extension.
-  * Turn the television from the Off to the On position
-  * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `URL`
+  * Turn the television from the Off to the On position.
+  * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `URL`.
 * **For File:**
-  *   * Select your source by changing it to `File`, then click on `Select URL or file`.  You will see a list of any file ending with an `.mp4` extension from the path your movie files are located in.  
-  * Turn the television from the Off to the On position
-  * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `File`
+  * Select your source by changing it to `File`, then click on `Select URL or file`. You will see a list of any file ending with an `.mp4` extension from the path your movie files are located in.  
+  * Turn the television from the Off to the On position.
+  * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `File`.
 * **Notes and limitations regarding `.mp4` playback:**
   * Not every `.mp4` file will work correctly within Vein, due to issues relating to codecs or malformed files.
-  * There are known playback issues with the native Linux libraries, using Proton (hotfix) works in some instances.
-  * The current implementation of the server and client code have varying effects and a few reported bugs relating to television and projector playback.  **We encourage you to visit the developer's Discord server and to [report any suggestions or bugs there, or through the game's feedback system](#reporting)**
+  * There are known playback issues with the native Linux libraries; using Proton (hotfix) works in some instances.
+  * The current implementation of the server and client code have varying effects and a few reported bugs relating to television and projector playback. **We encourage you to visit the developer's Discord server and to [report any suggestions or bugs there, or through the game's feedback system](#reporting)**
 * **Notes on multi-player:**
-  * If you are playing with friends, all of you must have the same access to the URL.  Playback and timing may not be in synch.
-  * When trying to play a local file, all of you must have the same `.mp4` files within your [Vein `Movies` location]()
+  * If you are playing with friends, all of you must have the same access to the URL. Playback and timing may not be in synch.
+  * When trying to play a local file, all of you must have the same `.mp4` files within your [Vein `Movies` location](#locationlocalmovies).
 
 <a name="tvprojectorcamera"></a>
 ### **Q:** How do I use the television or projector with security cameras?
-**Required:**  Adding electricity to both the camera and television **is required.**
+**Required:** Adding electricity to both the camera and television **is required.**
 * Install your security camera.
   * Select the camera:
     * `Examine Connections` and connect it to an electrical source.
-      * Select the television/projector, `Examine Connections` and connect it to an electrical source.
-      * Select the camera, `Examine Connections` and connect it to an electrical source.
+  * Select the television/projector:
+    * `Examine Connections` and connect it to an electrical source.
   * Select the television:
-    * Change your source to `Camera`
+    * Change your source to `Camera`.
     * At the bottom of the television menu, select `Add Camera` and connect it to the security camera.
-      * The camera has a short default range, *you can adjust this* within your [`Engine.ini` file](#locations)
+    * The camera has a short default range, *you can adjust this* within your [`Engine.ini` file](#locations).
     * *If you don't immediately see the camera feed*, switch your source until you've selected `Camera` again.
 **More than one camera:**
   * If you intend on having more than a single camera, you can select between the cameras and select through them with the `Next Camera` and `Previous Camera` options.
 **Notes on video and audio playback file formats:**
-* All files must end in either `.mp4`, `.webm`, `.mp3`
-* Other formats may work such as `.mkv` and `.avi` but are currently unsupported/tested.
+* All files must end in either `.mp4`, `.webm`, `.mp3`.
+* Other formats may work such as `.mkv` and `.avi` but are currently unsupported/untested.
 
 ### **Q:** Are there any free movies or television I can stream to my television?
 
-### **A:** Yes.  There are thousands of places to link any URL ending with a `.mp4` including websites such as WebArchives. ![We've curated and hand selected a few that are known to play and fit within the theme of playing a game such as Vein](public-domain-mp4-list.md)
+### **A:** Yes. There are thousands of places to link any URL ending with a `.mp4` including websites such as WebArchives. ![We've curated and hand selected a few that are known to play and fit within the theme of playing a game such as Vein](public-domain-mp4-list.md)
 
 ---
 
@@ -162,7 +162,7 @@ This can also be adjusted manually by accessing the `Engine.ini` file within you
 
 ## **Q:** What does UC mean?
 
-### **A:** UC is an abbreviation for the game's Utility Cabinet.  You build the UC from within your `B`uild menu within the game.  The UC is required to build other items. in your world.
+### **A:** UC is an abbreviation for the game's Utility Cabinet. You build the UC from within your `B`uild menu within the game. The UC is required to build other items in your world.
 
 ---
 
@@ -178,6 +178,5 @@ While in-game, press `Esc` to enter your menu and select **Feedback**. Use this 
 #### **Discord Reports**
 Join the official VEIN Discord and create a ticket under `#vein-bug-reports`. 
 * For crashes, flag the report with `[Crash!!]`.
-* Always upload your `Vein.log` file from the [`Saved/Logs` folder.](#locationlogfile)
-
+* Always upload your `Vein.log` file from the [`Saved/Logs` folder](#locationlogfile).
 ***
