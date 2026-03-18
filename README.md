@@ -1,6 +1,6 @@
 ***
 # VEIN: Frequently Asked Questions & Server Guide
-
+  ![Vein, the game](header.jpg)
 ### Quick Navigation
 * [Server/Client Configurations](#configurations)
 * [File Locations](#locations)
