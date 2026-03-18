@@ -8,5 +8,6 @@
 - [White Zombie (1932)](https://ia803406.us.archive.org/11/items/white_zombie/white_zombie_512kb.mp4)
 - [Little Shop of Horrors (1960)](https://ia800102.us.archive.org/9/items/Little_ShopOf_Horrors.avi/The_Little_Shop_of_Horrors_512kb.mp4)
 - [Hemp for Victory (1942)](https://ia800200.us.archive.org/31/items/Hemp_for_victory_1942/Hemp_for_victory_1942_512kb.mp4)
-
 - [The General (1926)](https://ia601301.us.archive.org/8/items/The_General_Buster_Keaton/The_General_512kb.mp4)
+- [Nosferatu (1922)](https://dn710901.ca.archive.org/0/items/Nosferatu1922VHS/Nosferatu%20%281922%29.mp4)
+- [Nosfetaru - A Symphony of Horror (1922)](https://dn711006.ca.archive.org/0/items/nosferatu_201508/dom-6567newnosferatu.mp4)
