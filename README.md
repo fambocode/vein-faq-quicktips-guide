@@ -98,8 +98,7 @@ VEIN does not currently support RCON.
 
 This can also be adjusted manually by accessing the `Engine.ini` file within your server's file configuration location.
 
-### **Q:** How do I use the television or projector?  How does the `URL` or `File` sources to work?
-
+### **Q:** How do I use the television or projector with `.mp4` files?
 * Select the television/projector, then `Examine Connections` and add electricity from any electricity source such as a panel on the wall, a generator.
 * **For URL:**
   * Select your source by changing it to `URL`, then click on `Select URL or file` and either type in your URL into the entry prompt, or you can copy and paste the link from a known URL with an existing `.mp4` extension.
@@ -109,6 +108,16 @@ This can also be adjusted manually by accessing the `Engine.ini` file within you
   *   * Select your source by changing it to `File`, then click on `Select URL or file`.  You will see a list of any file ending with an `.mp4` extension from the path your movie files are located in.  
   * Turn the television from the Off to the On position
   * Press the `Play` button near the top of your television/projector menu, or switch your source until you are able to select `File`
+
+### **Q:** How do I use the television or projector with security cameras?
+* Adding electricity from any electricity source such as a panel on the wall, a generator, to both your camera and television **is required**.
+  * Install your security camera.
+  * Select the camera, `Examine Connections` and connect it to an electrical source.
+    * Select the television/projector, `Examine Connections` and connect it to an electrical source.
+    * Select the camera, `Examine Connections` and connect it to an electrical source.
+  * Select the television, then change your source to `Camera`
+  * At the bottom of the television menu, select `Add Camera` and connect it to the security camera.
+    * The camera has a short default range, you can adjust this within your [`Engine.ini` file](#locations)
 
 ### **Q:** Where are my local movie files located, so that I can play them in the television/projector?
 * Your game installation path on both the Windows or Linux client, will contain the location for the game's movie selection.
