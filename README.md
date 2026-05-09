@@ -26,7 +26,7 @@ This is a collection of helpful tips provided by the community.
 Learn the essentials of surviving the apocalypse.
 *   **The Basics:** Archetypes, character creation, and starting your journey.
 *   **Inventory:** A detailed breakdown of the color-coded tab system and equipment management.
-*   **Mechanics:** Movement, combat, base building, and vehicle safety protocols.
+*   ~~**Mechanics:** Movement, combat, base building, and vehicle safety protocols.~~
 *   **Specialized Survival:** Detailed guides on forging, farming, foraging (0.24+), hunting, and slaughtering.
 
 <a name="technical-guide"></a>
