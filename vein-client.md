@@ -80,27 +80,27 @@ Without a cell phone or GPS, you cannot see your exact coordinates on a paper ma
 
 ### **Inventory Management**
 
-**Sorting:**
+#### **Sorting:**
 
 Use the tabs at the top to filter items by category.
 
-**Favoriting (`*`):** 
+#### **Favoriting (`*`):** 
 
 Pins items to the top of your list.
 
-**Locking (Padlock):**
+#### **Locking (Padlock):**
 
 Prevents items from being moved during bulk inventory transfers.
 
-### **Lighting (F)**
+#### **Lighting (F)**
 
 The default lighting toggle cycles through your highest-power devices: **Headlamp** -> **Flashlight** -> **Cell Phone**.
 
-### **The Paper Doll**
+#### **The Paper Doll**
 
 The "Paper Doll" menu displays clothing and body armor. Each item has combat resistance and insulation ratings. Worn items are marked with a small square in the inventory list and can degrade or take damage over time.
 
-### **Equipping Items**
+#### **Equipping Items**
 
 Items can be dragged to the hotbar (1-9) or your Paper Doll. You can reorder your hotbar by dragging and dropping items within the list.
 
@@ -111,67 +111,67 @@ Items can be dragged to the hotbar (1-9) or your Paper Doll. You can reorder you
 
 ![](/assets/logoweapons.png)
 
-🟥 **Weapons:**
+#### 🟥 **Weapons:**
 
 Many items not explicitly marked as weapons—such as hammers, mops, and whisks—can be used as alternatives. Metal pipes, baseball bats, and marshmallow spears are among the dozens of tools that function as blunt weapons. Firearms are effective for controlling zombies but will attract more to your area. Heavier melee weapons are more effective for stunning or knocking back enemies.
 
 ![](/assets/logoarmor.png)
 
-🟧 **Armor:**
+#### 🟧 **Armor:**
 
 Vests, kneepads, and helmets can be found at POIs or looted from zombies. Armor increases your defensive stats but adds **Weight** and generates **Heat**.
 
 ![](/assets/logoclothing.png)
 
-🟦 **Clothing:**
+#### 🟦 **Clothing:**
 
 Gloves are vital for surviving the cold, preventing electric shocks during hotwiring, and are required for smelting to avoid burns. Raincoats and Hazmat suits are waterproof and will protect your electronics from water damage.
 
 ![](/assets/logoconsumables.png)
 
-🟩 **Consumables:**
+#### 🟩 **Consumables:**
 
 Hunger and Thirst are measured on a scale of `-100 to +100`. Nutritious food and water are vital. Overeating causes weight gain; the "sweet spot" is between -50 and +50. Books and comics reduce stress and improve mood. Alcohol and drugs are also available for "fun."
 
 ![](/assets/logomedical.png)
 
-🟪 **Medical:**
+#### 🟪 **Medical:**
 
 Treat physical ailments like scratches, bites, and bruises to avoid infection or sickness. The treatment order is typically: Sterilize -> Suture (for deep wounds) -> Bandage (cloth scraps can be used). Sleep speeds up the healing process.
 
 ![](/assets/logoammunition.png)
 
-🟨 **Ammunition:**
+#### 🟨 **Ammunition:**
 
 Scavenge homes and businesses for rounds and magazines. **Warning:** When swapping a locked mag in combat, the discarded mag will be marked as *Unlocked* in your inventory.
 
 ![](/assets/logomaterials.png)
 
-🟣 **Material:**
+#### 🟣 **Material:**
 
 Building requires raw materials like scrap, wood planks, screws, nails, and springs. You can also recover vehicle components like radios and tires.
 
 ![](/assets/logotools.png)
 
-🟦 **Tools:**
+#### 🟦 **Tools:**
 
 Tools have four tiers: **Basic, Advanced, Powered, and Hydraulic.** Crafting requires tools to be placed inside a workbench.
 
 ![](/assets/logospecial.png)
 
-🟦 **Special:**
+#### 🟦 **Special:**
 
 Includes keys, crafting schematics, and skill books to improve your character or provide access to containers and vehicles.
 
 ![](/assets/logojunk.png)
 
-🟫 **Other:**
+#### 🟫 **Other:**
 
 Items like cups and bowls are useful for carrying liquids. Salvaging mail parcels may yield tools or clothing.
 
 ![](/assets/logorecent.png)
 
-🟨 **Recent:**
+#### 🟨 **Recent:**
 
 Provides quick access to the last several items acquired in your inventory.
 
@@ -180,20 +180,21 @@ Provides quick access to the last several items acquired in your inventory.
 <a name="building"></a>
 ## 🛠️ Base Building and Crafting
 
-**Utility Cabinet (UC):**
+### **Building your first base**
+
+#### **Utility Cabinet (UC):**
 
 Required to build any base items via the **B Menu**.
 
-**Workbenches:** 
+#### **Workbenches:** 
 
 There are three tiers; higher tiers include all lower-tier recipes.
 
-
-**Wall Building:** 
+#### **Wall Building:** 
 
 There is no world grid. Walls pivot 22.5 degrees. Always build in one session to ensure panels interlock correctly; exiting the menu resets the "first" panel placement.
 
-**Power/Water:**
+#### **Power/Water:**
 
 Connections are chained from the item to the source
 
@@ -206,27 +207,28 @@ Examples:
 
 <a name="vehicles"></a>
 ## 🚗 Looting & Vehicles
-**Capacity:**
+
+### **Capacity:**
 
 Vehicle trunks hold between 300 lbs and 3000 lbs.
 
-**Examples:** 
+#### **Examples:** 
 
 Cars/sedans, tractors, ambulances, and school buses.
 
-⚠️ **Physics Warning:** 
+#### ⚠️ **Physics Warning:** 
 
 In Early Access, do not stack items on roofs or beds; physics glitches during collisions can destroy them. 
 
-⚠️ **Logout Warning:** 
+#### ⚠️ **Hard Save:** 
+
+**\*** Always save manually before and after loading or unloading a vehicle.
+
+#### ⚠️ **Logout Warning:** 
 
 Never log off while inside a vehicle or with items on it; they may launch into "orbit" upon reloading. 
 
-⚠️ **Hard Save:** 
-
-Always save manually before and after loading or unloading a vehicle.
-
-*See note [vein-servers.md](vein-servers.md) (2026-05-09):*
+### * *See note [vein-servers.md](vein-servers.md) (2026-05-09):*
 
 Plans for `/Save` and `/SaveExit` functionality are currently in version 0.24 experimental.  Other mitigations and fixes relating to the game's save states have been implemented for the community.
 
@@ -235,31 +237,28 @@ Plans for `/Save` and `/SaveExit` functionality are currently in version 0.24 ex
 <a name="survival-tips"></a>
 ## ⚒️ Survival Tips
 
-![](/assets/logoslaughtercolor.png)
-
+### ![](/assets/logoslaughtercolor.png)
 **Slaughtering:**
-
 ---
 
-![](/assets/logoskin.png)
-
+#### ![](/assets/logoskin.png)
 **Skin**
 
 Chances of receiving Leather
 
-![](/assets/logoguts.png)
+#### ![](/assets/logoguts.png)
 
 **Gut**
 
 Chances of receiving Organs
 
-![](/assets/logomeat.png)
+#### ![](/assets/logomeat.png)
 
 **Butcher** 
 
 Chances of receiving Meat
 
-![](/assets/logoblood.png)
+#### ![](/assets/logoblood.png)
 
 **Bloodletting**
 
@@ -269,9 +268,14 @@ Use a syringe or pump into container for keeping blood.
 
 ![](/assets/logofarmingcolor.png)
 
-**Farming**
+### **Farming**
 
-Requires a garden plot, soil, seeds, water, and light.
+#### Requires:
+* garden plot
+* soil
+* seeds
+* water
+* light.
 
 ---
 
@@ -289,7 +293,6 @@ Foraging description (0.24)
 
 Turn scrap into ingots. 
 
-
 **ALWAYS WEAR GLOVES** to prevent burns.
 
 ---
@@ -300,7 +303,7 @@ Turn scrap into ingots.
 **Zombies**
 
 Currently, there are three types: 
-* **Crawlers
+* **Crawlers**
 * **Walkers**
 * **Runners** 
 
@@ -314,6 +317,8 @@ Keeping both yourself and the area you're keeping as a base, as clean as possibl
 
 **Water is Wet:** 
 
-Rain, sprinklers, and bodies of water will make you and your items wet. Use raincoats or hazmat suits to protect electronics. Store electronic devices and batteries in storage before entering water to avoid damaging them.
+Rain, sprinklers, and bodies of water will make you and your items wet.
+
+Use raincoats or hazmat suits to protect electronics. Store electronic devices and batteries in storage before entering water to avoid damaging them.
 
 ---
