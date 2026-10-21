@@ -5,6 +5,13 @@ How to install and host your own dedicated Vein server
 ---
 ## References
 
+A new guide on creating a dedicated Vein server on Linux Debian and Ubuntu
+
+https://github.com/fambocode/vein-faq-quicktips-guide/blob/main/veinserver-dedicated-guide-linux.md
+
+The source material for this markdown guide
+
+https://vein.wiki.gg/wiki/Vein_Dedicated_Server_Information
 
 ## Disclaimer
 
