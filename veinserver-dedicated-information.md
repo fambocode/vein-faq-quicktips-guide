@@ -35,7 +35,7 @@ Vein as a server does not require a lot of CPU power, but it can have an impact 
 
 #### Architecture
 
-Both your operating system and system hardware must support 64-bit, as the `VeinServer` binaries/executables will not run or correctly install in a 32-bit environment.
+Both your operating system and system hardware must support `64-bit`, as the `VeinServer` binaries/executables will not run or correctly install in a `32-bit` environment.
 
 #### Core Count
 
@@ -66,7 +66,7 @@ A single SSD or NVMe drive will work. Drive pools running the servers should als
 
 #### Amount
 
-You will need between 35 and 60 GB of available drive space to run and update your Vein server.
+You will need between `35 and 60 GB` of available drive space to run and update your Vein server.
 
 ---
 
@@ -84,9 +84,9 @@ The following table shows the ports required for a Vein server to work correctly
 
 | Port    | Port Type | Purpose    |
 | ------- | --------- | ---------- |
-| `7777`  | UDP       | Game port  |
-| `27015` | UDP       | Query port |
-| `8080`  | TCP       | API port   |
+| `7777`  | `UDP`       | Game port  |
+| `27015` | `UDP`       | Query port |
+| `8080`  | `TCP`       | API port   |
 
 ### Your Public IP
 
@@ -104,7 +104,7 @@ The server information that is sent to the server browser identifies your server
 
 When hosting on your own network, you will need to use the Direct Connect option within your Vein client. You will need to know the Vein server's private IPv4 address and port, such as `192.168.0.2:7777`.
 
-If you are hosting the server on the same device as the client, you will need to connect with your localhost IP address at `127.0.0.1:7777` in order to establish a truly local connection.
+If you are hosting the server on the same device as the client, you will need to connect with your `localhost` IP address at `127.0.0.1:7777` in order to establish a truly local connection.
 
 ---
 
