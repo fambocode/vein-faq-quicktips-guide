@@ -281,7 +281,7 @@ Close your server with `Ctrl+C`, then follow the example procedure above to run 
 
 ---
 
-## Edit and Updating Your Server Configuration Files
+## Edit and Update Your Server Configuration Files
 
 Once your server is configured and offline, you can edit the two main configuration files, `Game.ini` and `Engine.ini`.
 
