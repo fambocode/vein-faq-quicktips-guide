@@ -15,7 +15,7 @@ https://vein.wiki.gg/wiki/Vein_Dedicated_Server_Information
 
 ## Disclaimer
 
-This guide was revised and reworked for releases 0.023 through 0.025, and tested within the Discord community. The dedicated server experience has improved dramatically through 2026, and we are expecting a change in the game's networking within one of the newer planned release cycles.
+This guide was revised and reworked for releases `0.023` through `0.025`, and tested within the Discord community. The dedicated server experience has improved dramatically through 2026, and we are expecting a change in the game's networking within one of the newer planned release cycles.
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ Both your operating system and system hardware must support 64-bit, as the `Vein
 
 #### Core Count
 
-Vein seems to favor 1-4 cores during its heavier loads. As of version 0.025, the CPU will often spike when dealing with clients being further apart on the map and all actively working on their various tasks. As of this writing, the server will have a varying degree of impact on the CPU over its uptime, and shortly after a server restart/update.
+Vein seems to favor 1-4 cores during its heavier loads. As of version `0.025`, the CPU will often spike when dealing with clients being further apart on the map and all actively working on their various tasks. As of this writing, the server will have a varying degree of impact on the CPU over its uptime, and shortly after a server restart/update.
 
 ### RAM
 
@@ -51,10 +51,10 @@ The type of RAM used in a Vein server can definitely impact the overall performa
 
 #### Amount
 
-You will need, at a very minimum, 8 GB of available memory to run Vein as a server. It is recommended that you dedicate the system to Vein, as it will require more resources than most game servers over its duration and server uptime.
+You will need, at a very minimum, `8 GB` of available memory to run Vein as a server. It is recommended that you dedicate the system to Vein, as it will require more resources than most game servers over its duration and server uptime.
 
-- Once a server reaches 3 players, 16 GB of RAM is recommended.
-- Once it reaches 4 players or more, the server may increase its memory requirements quickly, and thus 32 GB is recommended for 4+ players.
+- Once a server reaches 3 players, `12-16 GB` of RAM is recommended.
+- Once it reaches 4 players or more, the server may increase its memory requirements quickly, and thus `32 GB` is recommended for 4+ players.
 
 ### Drives
 
@@ -114,35 +114,35 @@ The following is a non-exhaustive list of scenarios covering the more common sel
 
 ### Scenario 1: Single Server
 
-I cannot use ports 7777 and 27015 (for example, they are already in use or blocked) and only require one server on a single public IP address.
+I cannot use ports `7777` and `27015` (for example, they are already in use or blocked) and only require one server on a single public IP address.
 
-My server has a Game Port of 30000 and a Query Port of 30010.
+My server has a Game Port of `30000` and a Query Port of `30010`.
 
 | Game.ini location and key-pair                   | Local and Host Firewall(s) | NAT/Port Forward Entry         |
 | ------------------------------------------------ | -------------------------- | ------------------------------ |
-| `[URL]`<br>`Port=30000`                         | Open port 30000 UDP        | `LAN:30000<>WAN:30000/udp`     |
-| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=30010` | Open port 30010 UDP      | `LAN:30010<>WAN:30010/udp`     |
+| `[URL]`<br>`Port=30000`                         | Open port `30000 UDP`        | `LAN:30000<>WAN:30000/udp`     |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=30010` | Open port `30010 UDP`      | `LAN:30010<>WAN:30010/udp`     |
 
 ### Scenario 2: Two Servers
 
 I am not limited in using any port, but I'd like to host several servers from a single public IP address.
 
-One server has a Game Port of 7777 and a Query Port of 27015.
+One server has a Game Port of `7777` and a Query Port of `27015`.
 
-My second server has a Game Port of 7778 and a Query Port of 27016.
+My second server has a Game Port of `7778` and a Query Port of `27016`.
 
 | Game.ini location and key-pair                     | Local and Host Firewall(s) | NAT/Port Forward Entry     |
 | -------------------------------------------------- | -------------------------- | -------------------------- |
-| `[URL]`<br>`Port=7777`                                  | Open port 7777 UDP         | `LAN:7777<>WAN:7777/udp`   |
-| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port 27015 UDP        | `LAN:27015<>WAN:27015/udp` |
-| `[URL]`<br>`Port=7778`                                  | Open port 7778 UDP         | `LAN:7778<>WAN:7778/udp`   |
-| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27016` | Open port 27016 UDP        | `LAN:27016<>WAN:27016/udp` |
+| `[URL]`<br>`Port=7777`                                  | Open port `7777 UDP`         | `LAN:7777<>WAN:7777/udp`   |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port `27015 UDP`        | `LAN:27015<>WAN:27015/udp` |
+| `[URL]`<br>`Port=7778`                                  | Open port `7778 UDP`         | `LAN:7778<>WAN:7778/udp`   |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27016` | Open port `27016 UDP`        | `LAN:27016<>WAN:27016/udp` |
 
 ### Scenario 3: CGNAT/Private IP Server
 
 My provider limits my router to an IP address similar to `192.168.4.5`/`172.16.1.2` and I cannot host from my network.
 
-I have one server with a Game Port of 7777 and a Query Port of 27015.
+I have one server with a Game Port of `7777` and a Query Port of `27015`.
 
 > **Note:** While this is currently unavailable, there may be other mitigations and network changes that will allow servers to tunnel directly without a NAT entry. For further reading and study, please refer to Cloudflare or Tailscale for free access to tunneling your services securely.
 
@@ -150,18 +150,18 @@ I have one server with a Game Port of 7777 and a Query Port of 27015.
 
 I'd like to host locally on my network. I don't plan on having anyone from the outside connect.
 
-I have one server with a Game Port of 7777 and a Query Port of 27015.
+I have one server with a Game Port of `7777` and a Query Port of `27015`.
 
 | Game.ini location and key-pair                     | Local and Host Firewall(s) | NAT/Port Forward Entry |
 | -------------------------------------------------- | -------------------------- | ---------------------- |
-| `[URL]`<br>`Port=7777`                                  | Open port 7777 UDP         | N/A                    |
-| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port 27015 UDP        | N/A                    |
+| `[URL]`<br>`Port=7777`                                  | Open port `7777 UDP`         | N/A                    |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port `27015 UDP`        | N/A                    |
 
 ### Scenario 5: Local Client and Server Only
 
 I'd like to host locally on the same device I play Vein on. I don't plan on having anyone connect from the outside.
 
-I have one server with a Game Port of 7777 and a Query Port of 27015.
+I have one server with a Game Port of `7777` and a Query Port of `27015`.
 
 | Game.ini location and key-pair                     | Local and Host Firewall(s) | NAT/Port Forward Entry |
 | -------------------------------------------------- | -------------------------- | ---------------------- |
