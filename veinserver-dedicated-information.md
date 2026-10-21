@@ -3,6 +3,8 @@
 How to install and host your own dedicated Vein server
 
 ---
+## References
+
 
 ## Disclaimer
 
@@ -188,4 +190,4 @@ The following is an example of EFI virtual hardware confirmed working with Vein:
 
 \* Windows client and server require activation. Though a Windows device in a grace period should not impact the server's performance, it can impact which features you might not have access to once the server's activation expires. Windows Server is recommended for your virtual environment hosting services.
 
-\*\* Linux dependencies for steamcmd require quite a lot of work to keep updated without breaking other dependencies. A sample of the instructions found within a Docker image will be used as the very simple instructions for a Linux installation without Docker. Docker Desktop can be used but is not supported due to its overarching complexity in handling DNS and networking traffic over Hyper-V and WSL/Docker.
+\*\* Linux dependencies for steamcmd require quite a lot of work to keep updated without breaking other dependencies.  Docker Desktop can be used but is not supported due to its overarching complexity in handling DNS and networking traffic over Hyper-V and WSL/Docker.
