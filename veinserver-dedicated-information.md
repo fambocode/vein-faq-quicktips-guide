@@ -120,8 +120,8 @@ My server has a Game Port of 30000 and a Query Port of 30010.
 
 | Game.ini location and key-pair                   | Local and Host Firewall(s) | NAT/Port Forward Entry         |
 | ------------------------------------------------ | -------------------------- | ------------------------------ |
-| `[URL] Port=30000`                               | Open port 30000 UDP        | `LAN:30000<>WAN:30000/udp`     |
-| `[OnlineSubsystemSteam] GameServerQueryPort=30010` | Open port 30010 UDP      | `LAN:30010<>WAN:30010/udp`     |
+| `[URL]`<br>`Port=30000`                         | Open port 30000 UDP        | `LAN:30000<>WAN:30000/udp`     |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=30010` | Open port 30010 UDP      | `LAN:30010<>WAN:30010/udp`     |
 
 ### Scenario 2: Two Servers
 
@@ -133,10 +133,10 @@ My second server has a Game Port of 7778 and a Query Port of 27016.
 
 | Game.ini location and key-pair                     | Local and Host Firewall(s) | NAT/Port Forward Entry     |
 | -------------------------------------------------- | -------------------------- | -------------------------- |
-| `[URL] Port=7777`                                  | Open port 7777 UDP         | `LAN:7777<>WAN:7777/udp`   |
-| `[OnlineSubsystemSteam] GameServerQueryPort=27015` | Open port 27015 UDP        | `LAN:27015<>WAN:27015/udp` |
-| `[URL] Port=7778`                                  | Open port 7778 UDP         | `LAN:7778<>WAN:7778/udp`   |
-| `[OnlineSubsystemSteam] GameServerQueryPort=27016` | Open port 27016 UDP        | `LAN:27016<>WAN:27016/udp` |
+| `[URL]`<br>`Port=7777`                                  | Open port 7777 UDP         | `LAN:7777<>WAN:7777/udp`   |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port 27015 UDP        | `LAN:27015<>WAN:27015/udp` |
+| `[URL]<br>Port=7778`                                  | Open port 7778 UDP         | `LAN:7778<>WAN:7778/udp`   |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27016` | Open port 27016 UDP        | `LAN:27016<>WAN:27016/udp` |
 
 ### Scenario 3: CGNAT/Private IP Server
 
@@ -154,8 +154,8 @@ I have one server with a Game Port of 7777 and a Query Port of 27015.
 
 | Game.ini location and key-pair                     | Local and Host Firewall(s) | NAT/Port Forward Entry |
 | -------------------------------------------------- | -------------------------- | ---------------------- |
-| `[URL] Port=7777`                                  | Open port 7777 UDP         | N/A                    |
-| `[OnlineSubsystemSteam] GameServerQueryPort=27015` | Open port 27015 UDP        | N/A                    |
+| `[URL]`<br>`Port=7777`                                  | Open port 7777 UDP         | N/A                    |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port 27015 UDP        | N/A                    |
 
 ### Scenario 5: Local Client and Server Only
 
@@ -165,8 +165,8 @@ I have one server with a Game Port of 7777 and a Query Port of 27015.
 
 | Game.ini location and key-pair                     | Local and Host Firewall(s) | NAT/Port Forward Entry |
 | -------------------------------------------------- | -------------------------- | ---------------------- |
-| `[URL] Port=7777`                                  | N/A                        | N/A                    |
-| `[OnlineSubsystemSteam] GameServerQueryPort=27015` | N/A                        | N/A                    |
+| `[URL]`<br>`Port=7777`                                  | N/A                        | N/A                    |
+| `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | N/A                        | N/A                    |
 
 ### Scenario 6: I Dunno
 
