@@ -184,6 +184,8 @@ Can I just pay someone?
 
 When working with virtual machines, the machine type has an impact on whether the server will perform well. The default virtual experience provided by a hypervisor may not be enough to launch Vein and will result in possible errors or crashes. The stdout and log output for Vein will mention whether you have the correct processor and architecture to launch it as an executable service.
 
+**Note on Guest Drivers:** Depending on the virtual hardware you are using, you may need to also install the drivers using the hypervisor's tools or the virtual machine's own package installer to correctly install the hardware.
+
 The following is an example of EFI virtual hardware confirmed working with Vein:
 
 | Server System Information | Physical                      | Virtual                              |
