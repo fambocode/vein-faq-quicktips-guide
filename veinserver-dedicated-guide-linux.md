@@ -281,7 +281,7 @@ Close your server with `Ctrl+C`, then follow the example procedure above to run 
 
 ---
 
-## Edit Your Server Configuration Files
+## Edit and Updating Your Server Configuration Files
 
 Once your server is configured and offline, you can edit the two main configuration files, `Game.ini` and `Engine.ini`.
 
@@ -290,10 +290,7 @@ Find your `Game.ini` file first, and configure your server launch parameters:
 ```bash
 find ~ -name Game.ini -path "*LinuxServer*"
 ```
-
-## Updating Your Server Configuration Files
-
-You can restart your server manually and allow it to update by restarting the service:
+You may need to restart your server manually and allow it to update by restarting the service:
 
 ```bash
 sudo systemctl restart vein
