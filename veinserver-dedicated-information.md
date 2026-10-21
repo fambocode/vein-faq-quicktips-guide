@@ -135,7 +135,7 @@ My second server has a Game Port of 7778 and a Query Port of 27016.
 | -------------------------------------------------- | -------------------------- | -------------------------- |
 | `[URL]`<br>`Port=7777`                                  | Open port 7777 UDP         | `LAN:7777<>WAN:7777/udp`   |
 | `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27015` | Open port 27015 UDP        | `LAN:27015<>WAN:27015/udp` |
-| `[URL]<br>Port=7778`                                  | Open port 7778 UDP         | `LAN:7778<>WAN:7778/udp`   |
+| `[URL]`<br>`Port=7778`                                  | Open port 7778 UDP         | `LAN:7778<>WAN:7778/udp`   |
 | `[OnlineSubsystemSteam]`<br>`GameServerQueryPort=27016` | Open port 27016 UDP        | `LAN:27016<>WAN:27016/udp` |
 
 ### Scenario 3: CGNAT/Private IP Server
